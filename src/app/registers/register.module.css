@@ -1,0 +1,49 @@
+.box{
+    background-color:transparent;
+    backdrop-filter: blur(30px);
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 20px 30px;
+    margin: 100px auto;
+    width: 450px;
+    
+}
+.main h1{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    color: #0382c1;  
+}
+.main input{
+    background-color: transparent;
+    font-size: 18px;
+    color:white;
+    margin: 12px;
+    border-radius: 25px;
+    border: 2px solid white;
+    width: 80%;
+    padding: 10px;
+    margin-left: 10%;
+    outline: none;
+}
+.main input::placeholder{
+    color: #53b0df;
+    font-family:"Playfair Display", serif;
+    font-weight: 600;
+}
+
+.main button{
+    background:linear-gradient(90deg,rgb(183, 214, 249),rgb(61, 187, 245),rgb(3, 188, 250));
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 6px;
+    width: 50%;
+    margin-top: 25px; 
+    margin-left: 25%;
+    font-family:"Playfair Display", serif;
+    font-weight: 600;
+}
